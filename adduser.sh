@@ -8,6 +8,7 @@
 if [ "$1" = "" ]
 then
     echo "Please input a username"
+    echo "usage: $0 username"
     exit 1
 fi
 
