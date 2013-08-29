@@ -14,6 +14,6 @@ fi
 user=$1
 
 adduser $user
-mkdir /home/~$user/www
+mkdir /home/$user/www
 chown $user:www-data /home/$user/www
 chmod 750 /home/$user/www
